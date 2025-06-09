@@ -28,5 +28,5 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-client.run('MTM4MTY4Nzk4MzI3ODY1NzY0Nw.Gfwqam.GA1Gav562aPcZ5OD3_9zyh5sTiw67eqfL8Leyw') # Give your own token own token.
+client.run('ADD YOUR OWN') # Give your own token own token.
 # type python3 bot.py to get the bot online and running 
