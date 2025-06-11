@@ -57,21 +57,14 @@ Visit [https://discord.com/developers/applications](https://discord.com/develope
 ---
 
 ## 🛠️ Install Dependencies
-
 ### For macOS/Linux:
-```bash
-python3 -m pip install -U discord.py requests
-For Windows:
-py -3 -m pip install -U discord.py requests
-Writing the Bot
+python3 -m pip install -U discord.py
+## If you are using Windows, then the following command should be used instead:
+py -3 -m pip install -U discord.py
 Create a file named bot.py and add your bot code (or use the one provided in this repo).
-
 Make sure it includes:
-
 discord.py for bot interaction
-
 requests and json to fetch memes from the Meme API
-
 Example API for memes:
 https://meme-api.com/gimme
 Run the Bot
@@ -80,17 +73,12 @@ Copy
 Edit
 python3 bot.py
 (Use py bot.py on Windows)
-
 To stop the bot, press CTRL+C
 🤖 Sample Commands
 Try these in your Discord server after the bot is running:
-
 hello → Bot says hello back
-
 how are you → Friendly response
-
 !meme → Fetches a random meme
-
 Bot may react to messages with emojis for fun!
 
 🧠 About
